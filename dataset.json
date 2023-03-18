@@ -1,0 +1,1027 @@
+{
+      "intents": [
+            {
+                  "intent": "Greeting",
+                  "text": [
+                        "Hi",
+                        "Hi there",
+                        "Hola",
+                        "Hello",
+                        "Hello there",
+                        "Hya",
+                        "Hya there",
+                        "hii",
+                        "hi",
+                        "hy"
+                  ],
+                  "responses": [
+                        "Hi there, How may I help you?",
+                        "hii there, How may I help you?",
+                        "Hello, How can I help you?",
+                        "Hola ,What can I do for you?"
+                  ],
+                  "extension":  {
+                        "function": "",
+                        "entities": false,
+                        "responses": []
+                  },
+                  "context":  {
+                        "in": "",
+                        "out": "GreetingUserRequest",
+                        "clear": false
+                  },
+                  "entityType": "NA",
+                  "entities": []
+            },
+            {
+                  "intent": "GreetingResponse",
+                  "text": [
+                        "What is this website all about?",
+                        "What kind of projects can I collaborate on?",
+                        "How do I find projects to collaborate on?",
+                        "Can I work on a project with people from different schools or locations?",
+                        "How can I communicate with project team members",
+                        "Can I get feedback on my project?",
+                        "Can I see what projects other members are working on?",
+                        "What are the domains of this website?"
+                  ],
+                  "responses": [
+                        "Our website is a common platform for alumni, seniors, teachers, and juniors to collaborate on projects.",
+                        "You can collaborate on a variety of projects, including research projects, community service projects, and more.",
+                        "You can browse available projects on our website and connect with project leaders to learn more.",
+                        "Yes, our platform is designed to facilitate collaboration between people from different schools and locations.",
+                        "You can communicate with project team members through our messaging system and project discussion forums.",
+                        "Yes, you can get feedback on your project from other members of the community through our project discussion forums.",
+                        "Yes, you can browse through the list of projects to see what other members are working on.",
+                        ""
+                  ],
+                  "extension":  {
+                        "function": "",
+                        "entities": true,
+                        "responses": []
+                  },
+                  "context":  {
+                        "in": "GreetingUserRequest",
+                        "out": "",
+                        "clear": true
+                  },
+                  "entityType": "NA",
+                  "entities": [ ]
+            },
+            {
+                  "intent": "brief",
+                  "text": [
+                        "What is this website all about?",
+                        "What kind of projects can I collaborate on?",
+                        "How do I find projects to collaborate on?",
+                        "Can I work on a project with people from different schools or locations?",
+                        "How can I communicate with project team members",
+                        "Can I get feedback on my project?",
+                        "Can I see what projects other members are working on?"
+                  ],
+                  "responses": [
+                        "Our website is a common platform for alumni, seniors, teachers, and juniors to collaborate on projects.",
+                        "You can collaborate on a variety of projects, including research projects, community service projects, and more.",
+                        "You can browse available projects on our website and connect with project leaders to learn more.",
+                        "Yes, our platform is designed to facilitate collaboration between people from different schools and locations.",
+                        "You can communicate with project team members through our messaging system and project discussion forums.",
+                        "Yes, you can get feedback on your project from other members of the community through our project discussion forums.",
+                        "Yes, you can browse through the list of projects to see what other members are working on.",
+                        ""
+                  ],
+                  "extension":  {
+                        "function": "",
+                        "entities": true,
+                        "responses": []
+                  },
+                  "context":  {
+                        "in": "GreetingUserRequest",
+                        "out": "",
+                        "clear": true
+                  },
+                  "entityType": "NA",
+                  "entities": [
+                  ]
+                        
+            },
+
+
+            {
+                  "intent": "Domain",
+                  "text": [
+                        "What project domains are included on this website?",
+                        "Could you provide me with a list of project domains available on this website?",
+                        "In which areas do the projects on this website fall under?",
+                        "What are the different project categories offered on this website?",
+                        "Can you tell me the types of projects that are hosted on this website?",
+                        "What are the subject areas covered by the projects on this website?",
+                        "I'm curious about the project domains represented on this website. Could you tell me more??",
+                        "What are the domains of this website?",
+                        "Which fields do the projects on this website cover?",
+                        "What are the different project topics that are available on this website?",
+                        "Could you clarify the scope of the projects featured on this website?",
+                        "domains of projects"
+                  ],
+                  "responses": [
+                        "This website offers projects in various domains such as Android development, Artificial Intelligence, Blockchain, cyber security, web development, enterprise, and cloud computing.",
+                        "The project categories available on this website include Android development, Artificial Intelligence, Blockchain, cyber security, web development, enterprise, and cloud computing.",
+                        "You can find projects related to Android development, Artificial Intelligence, Blockchain, cyber security, web development, enterprise, and cloud computing on this website.",
+                        "The project domains covered by this website include Android development, Artificial Intelligence, Blockchain, cyber security, web development, enterprise, and cloud computing.",
+                        "Android development, Artificial Intelligence, Blockchain, cyber security, web development, enterprise, and cloud computing are among the project areas covered on this website.",
+                        "This website features projects from a range of domains, such as Android development, Artificial Intelligence, Blockchain, cyber security, web development, enterprise, and cloud computing.",
+                        "Projects related to Android development, Artificial Intelligence, Blockchain, cyber security, web development, enterprise, and cloud computing can be found on this website.",
+                        "If you're interested in Android development, Artificial Intelligence, Blockchain, cyber security, web development, enterprise, or cloud computing, you can explore the projects available on this website.",
+                        "The projects on this website span a variety of domains, including Android development, Artificial Intelligence, Blockchain, cyber security, web development, enterprise, and cloud computing.",
+                        "You can find projects in areas such as Android development, Artificial Intelligence, Blockchain, cyber security, web development, enterprise, and cloud computing on this website."
+                  ],
+                  "extension":  {
+                        "function": "",
+                        "entities": true,
+                        "responses": []
+                  },
+                  "context":  {
+                        "in": "GreetingUserRequest",
+                        "out": "",
+                        "clear": true
+                  },
+                  "entityType": "NA",
+                  "entities": [
+                        
+                  ]
+            },      
+
+            {
+                  "intent": " Upcoming Hackathon",
+                  "text": [
+                        "How can I see the upcoming  hackathons?",
+                        "What are my options to view the upcoming hackathons?",
+                        "Is there a method to check out the upcoming hackathons?",
+                        "Where can I find information about the upcoming hackathons?",
+                        "Can you suggest ways to stay updated about the upcoming hackathons?",
+                        "I want to know how I can stay informed about the upcoming hackathons, any ideas?"
+                  ],
+                  "responses": [
+                        "Our announcement section provides information on the upcoming hackathons.",
+                        "To check out the upcoming hackathons, visit our announcement section.",
+                        "If you want to know about the upcoming hackathons, our announcement section has all the details.",
+                        "Our announcement section is where you can find updates on the upcoming hackathons.",
+                        "Looking for information on the upcoming hackathons? Our announcement section is the place to be."
+                  ],
+                  "extension":  {
+                        "function": "",
+                        "entities": true,
+                        "responses": []
+                  },
+                  "context":  {
+                        "in": "GreetingUserRequest",
+                        "out": "",
+                        "clear": true
+                  },
+                  "entityType": "NA",
+                  "entities": [
+                        
+                  ]
+            },
+
+
+            {
+                  "intent": "MobileApplication",
+                  "text": [
+                        "Does this website have a mobile application available?",
+                        "Can I access this website through a mobile app?",
+                        "Is there a mobile version of this website?",
+                        "Is there an app that I can download to access this website on my mobile device?",
+                        "Are there any mobile apps associated with this website?",
+                        "mobileapplication",
+                        "mobile appplication"
+                  ],
+                  "responses": [
+                        
+                        "At the moment, a mobile application is not available, but we're in the process of developing one.",
+                        "We're currently working on developing a mobile application, but it's not available yet.",
+                        "We're in the process of creating a mobile application, but it's not ready for use right now.",
+                        "A mobile application isn't available presently, but we're actively working on developing one.",
+                        "We're developing a mobile application, but it's not currently available for download."
+                  ],
+                  "extension":  {
+                        "function": "",
+                        "entities": true,
+                        "responses": []
+                  },
+                  "context":  {
+                        "in": "GreetingUserRequest",
+                        "out": "",
+                        "clear": true
+                  },
+                  "entityType": "NA",
+                  "entities": [
+                        
+                  ]
+            },
+            
+
+            {
+                  "intent": "Project Limits",
+                  "text": [
+                        "Are there any restrictions on the number of projects I can create?",
+                        "Is there a maximum limit on the number of projects that I'm allowed to create?",
+                        "Can I create an unlimited number of projects, or is there a limit?",
+                        "Is there a cap on the number of projects that I can create on this platform?",
+                        "Are there any limitations on the number of projects that I'm permitted to create?"
+                  ],
+                  "responses": [
+                        "You can only participate in a maximum of two projects at a time. You must complete one before joining another.",
+                        "Until you finish one project, you can only participate in two projects at a time.",
+                        "You're allowed to involve yourself in up to two projects simultaneously, but you must complete one before joining another.",
+                        "You can only take part in two projects at any given time, and you must finish one before starting another.",
+                        "Participation is limited to a maximum of two projects at a time. Only after completing one can you move on to another."
+                  ],
+                  "extension":  {
+                        "function": "",
+                        "entities": true,
+                        "responses": []
+                  },
+                  "context":  {
+                        "in": "GreetingUserRequest",
+                        "out": "",
+                        "clear": true
+                  },
+                  "entityType": "NA",
+                  "entities": [
+                        
+                  ]
+            },
+
+
+
+            {
+                  "intent": "Cyber Security",
+                  "text": [
+                        "What is cyber security?",
+                        "Why is cyber security important?",
+                        "What are some common cyber security threats?",
+                        "What are some common cyber security defenses?",
+                        "What is the role of a cyber security professional?",
+                        "What is the difference between cyber security and information security?",
+                        "What are some best practices for cyber security?",
+                        "How does cyber security impact business?",
+                        "What is the future of cyber security?",
+                        "How can individuals protect themselves from cyber attacks?"   
+      
+                  ],
+                  "responses": [
+                        "Cyber security is the practice of protecting computer systems, networks, and digital information from theft, damage, or unauthorized access.",
+                        "Cyber security is important because it helps prevent cyber attacks, which can result in stolen data, financial loss, and reputational damage for individuals and organizations.",
+                        "Some common cyber security threats include phishing attacks, malware infections, ransomware, denial-of-service (DoS) attacks, and social engineering scams.",
+                        "Common cyber security defenses include firewalls, antivirus software, intrusion detection and prevention systems, encryption, and access controls.",
+                        "A cyber security professional is responsible for identifying and addressing security risks, implementing security measures, monitoring for threats, and responding to security incidents.",
+                        "Cyber security is focused on protecting computer systems and digital information from cyber attacks, while information security is focused on protecting all forms of information, including physical documents and other tangible assets",
+                        "Some best practices for cyber security include regularly updating software and security patches, using strong and unique passwords, enabling two-factor authentication, and educating users about security risks and best practices.",
+                        "Cyber security can impact business by protecting sensitive data and intellectual property, ensuring regulatory compliance, maintaining customer trust and confidence, and avoiding costly security breaches and legal liabilities.",
+                        "The future of cyber security is likely to involve increased use of artificial intelligence and machine learning to detect and respond to threats, as well as greater emphasis on securing the Internet of Things (IoT) and cloud-based services.",
+                        "Individuals can protect themselves from cyber attacks by using strong and unique passwords, being cautious about opening email attachments and clicking on links, avoiding public Wi-Fi networks, and using security software and firewalls."
+            
+
+                        
+                  ],
+                  "extension":  {
+                        "function": "",
+                        "entities": true,
+                        "responses": []
+                  },
+                  "context":  {
+                        "in": "GreetingUserRequest",
+                        "out": "",
+                        "clear": true
+                  },
+                  "entityType": "NA",
+                  "entities": [
+                        
+                  ]
+            },
+            {
+                  "intent": "Data Analytics",
+                  "text": [
+                        "What is domain data analytics?",
+                        "How is domain data analytics different from regular data analytics?",
+                        "What are some examples of domains where data analytics is commonly used?",
+                        "What are some common tools and technologies used in domain data analytics?",
+                        "What are some challenges of domain data analytics?",
+                        "How can domain data analytics be used to improve business performance?",
+                        "What are some ethical considerations when using domain data analytics?",
+                        "How can domain data analytics be used to improve public health?",
+                        "How can domain data analytics be used to improve customer experience?",
+                        "What are some future trends in domain data analytics?"
+
+      
+                  ],
+                  "responses": [
+                        "Domain data analytics refers to the process of analyzing data from a specific domain or industry. It involves collecting, processing, and interpreting data to gain insights and make informed decisions about that particular domain.",
+                        "Domain data analytics focuses on analyzing data from a specific domain, while regular data analytics is a more general term that can refer to analyzing data from any source. Domain data analytics requires specialized knowledge about the industry and its unique challenges and opportunities.",
+                        "Data analytics is used in a wide range of domains, including healthcare, finance, retail, manufacturing, and more. In healthcare, for example, data analytics can be used to analyze patient data to identify patterns and make more accurate diagnoses.",
+                        "Tools and technologies used in domain data analytics include data mining software, statistical analysis tools, machine learning algorithms, and visualization tools. These tools help analysts to collect, process, and analyze large amounts of data.",
+                        "One challenge of domain data analytics is the need for specialized knowledge and expertise in the industry being analyzed. Another challenge is the complexity of the data itself, which can be difficult to process and analyze without the right tools and techniques.",
+                        "By analyzing data from a specific domain, businesses can identify trends and patterns that can help them make more informed decisions. For example, analyzing customer data can help businesses identify areas where they can improve customer satisfaction and increase sales.",
+                        "Ethical considerations in domain data analytics include issues around privacy, security, and bias. Analysts must take steps to ensure that data is collected and used in a responsible and ethical way.",
+                        "By analyzing data from the healthcare domain, public health officials can identify patterns and trends that can help them identify and respond to health threats. For example, data analytics can be used to track the spread of infectious diseases and develop strategies to control outbreaks",
+                        "By analyzing data from customer interactions, businesses can identify patterns and trends that can help them improve the customer experience. For example, data analytics can be used to identify areas where customers are most likely to have problems and develop strategies to address those issues.",
+                        "Future trends in domain data analytics include the use of artificial intelligence and machine learning to analyze data, the use of blockchain technology to improve data security, and the development of new tools and techniques to help analysts process and analyze large amounts of data more efficienient."
+          
+                  ],
+                  "extension":  {
+                        "function": "",
+                        "entities": true,
+                        "responses": []
+                  },
+                  "context":  {
+                        "in": "GreetingUserRequest",
+                        "out": "",
+                        "clear": true
+                  },
+                  "entityType": "NA",
+                  "entities": [
+                        
+                  ]
+            },
+
+
+            {
+                  "intent": "BlockChain",
+                  "text": [
+                        "Can you tell me more about your expertise in Blockchain technology?",
+                        "I'm interested to learn more about your work in Blockchain. Could you provide an overview?",
+                        "Can you elaborate on your experience with Blockchain technology and what your domain encompasses?",
+                        "What specific areas of Blockchain technology do you specialize in?",
+                        "I'm curious about your expertise in Blockchain. Can you explain more about what you do in this domain?",
+                        "What does your domain of Blockchain entail, and how does it differ from other domains in this field?",
+                        "Can you give me an idea of some of the projects you've worked on in your domain of Blockchain?",
+                        "How do you see the field of Blockchain technology evolving in the future, and how does your domain fit into this?",
+                        "Can you explain the importance of your domain of Blockchain, and how it's impacting various industries?",
+                        "What inspired you to pursue a domain in Blockchain technology, and what do you find most exciting about this field?"
+                        
+
+                  ],
+                  "responses": [
+                        "Certainly, my domain of Blockchain involves the study and development of decentralized, distributed digital ledgers that can securely store and record transactions and data.",
+                        "Of course, my domain in Blockchain is focused on designing and implementing decentralized, trustless systems that can enable secure and transparent transactions and data sharing without the need for intermediaries.",
+                        "Sure, my domain of Blockchain encompasses a range of topics, including cryptography, consensus mechanisms, smart contracts, and decentralized applications. My experience in this domain involves researching and developing advanced Blockchain technologies for various industries.",
+                        "My domain of Blockchain encompasses a few different areas, including public and private Blockchain networks, decentralized finance, tokenization, and digital identity. I specialize in developing Blockchain solutions that can improve efficiency, security, and transparency in various domains.",
+                        "Sure, my work in Blockchain technology involves designing and implementing decentralized systems that can enable secure and transparent transactions and data sharing. I also work on developing smart contracts and decentralized applications that can automate processes and reduce the need for intermediaries.",
+                        "My domain of Blockchain focuses on developing decentralized, trustless systems that can enable secure and transparent transactions and data sharing without the need for intermediaries. This differs from other domains in the field, such as centralized databases or traditional financial systems, which may have different objectives and methods of achieving them.",
+                        "Sure, some of the projects I've worked on include developing Blockchain-based payment systems, creating tokenization platforms for real estate and other assets, and designing decentralized identity solutions. I've also worked on developing smart contract-based insurance and supply chain management systems.",
+                        "I believe that the field of Blockchain technology will continue to grow and evolve rapidly, with advances in areas such as interoperability, scalability, and privacy. My domain fits into this by focusing on developing advanced Blockchain solutions that can help businesses and organizations streamline processes, reduce costs, and create new opportunities for growth.",
+                        "Certainly, my domain of Blockchain is becoming increasingly important in a wide range of industries, including finance, healthcare, logistics, and supply chain management. By enabling secure and transparent transactions and data sharing, Blockchain is helping organizations improve efficiency, reduce costs, and enhance trust and accountability."
+                        
+
+                        
+                  ],
+                  "extension":  {
+                        "function": "",
+                        "entities": true,
+                        "responses": []
+                  },
+                  "context":  {
+                        "in": "GreetingUserRequest",
+                        "out": "",
+                        "clear": true
+                  },
+                  "entityType": "NA",
+                  "entities": [
+                        
+                  ]
+            },
+
+
+            {
+                  "intent": "Artificial Intelligence (ai,AI)",
+                  "text": [
+                        "Could you give me an overview of your expertise in Artificial Intelligence?",
+                        "I'm interested to learn more about your domain of Artificial Intelligence. Would you be able to explain it to me?",
+                        "Can you tell me about your specialization in Artificial Intelligence?",
+                        "I'm curious about your experience with Artificial Intelligence. Can you elaborate on your domain?",
+                        "Would you mind sharing some information about your Artificial Intelligence domain with me?",
+                        "what is ai",
+                        "what is AI"
+
+                  ],
+                  "responses": [
+                        "Certainly, my domain of Artificial Intelligence involves the study and development of intelligent machines and software that can perceive, reason, learn, and adapt to new situations.",
+                        "Of course, my domain in Artificial Intelligence is focused on developing algorithms, models, and systems that enable machines to perform tasks that would typically require human-like intelligence, such as image and speech recognition, natural language processing, and decision making.",
+                        "Certainly, my domain of Artificial Intelligence encompasses a range of topics, including machine learning, deep learning, computer vision, natural language processing, robotics, and intelligent systems. My experience in this domain involves researching and developing advanced AI technologies for various industries.",
+                        "I believe that the field of Artificial Intelligence will continue to grow and evolve rapidly, with advances in areas such as deep learning, natural language processing, and robotics. My domain fits into this by focusing on developing advanced AI technologies that can help businesses and organizations automate processes, improve decision making, and create new products and services.",
+                        "Certainly, my domain of Artificial Intelligence is becoming increasingly important in a wide range of industries, including healthcare, finance, retail, and manufacturing. By enabling machines to perform complex tasks that would typically require human intelligence, AI is helping organizations improve efficiency, reduce costs, and create new opportunities for growth.",
+                        "I've always been fascinated by the idea of creating machines that can think and learn like humans, and that's what drew me to the field of Artificial Intelligence.",
+                        "Artificial intelligence (AI), the ability of a digital computer or computer-controlled robot to perform tasks commonly associated with intelligent beings. The term is frequently applied to the project of developing systems endowed with the intellectual processes characteristic of humans, such as the ability to reason, discover meaning, generalize, or learn from past experience.",
+                        "Artificial intelligence (AI) refers to the simulation of human intelligence in machines that are programmed to think like humans and mimic their actions."
+                  ],
+                  "extension":  {
+                        "function": "",
+                        "entities": true,
+                        "responses": []
+                  },
+                  "context":  {
+                        "in": "GreetingUserRequest",
+                        "out": "",
+                        "clear": true
+                  },
+                  "entityType": "NA",
+                  "entities": [
+                        
+                  ]
+            },
+
+
+
+
+            {
+                  "intent": "Social Media Links",
+                  "text": [
+                        "Is there a way for me to view the social media links of the website?",
+                        "Where can I find the social media links for this website?",
+                        "What is the method to see the social media links on this website?",
+                        "Can you tell me how to access the social media links of this website?",
+                        "I'm wondering how I can check the social media links on this website"
+
+
+                  ],
+                  "responses": [
+                        "To view the website's social media links, simply click on the social media icons located in the footer of the page.",
+                        "By clicking on the social media icons present in the footer of the page, you can access the website's social media links.",
+                        "The social media links of the website can be seen by clicking on the social media icons that are placed in the page's footer.",
+                        "Accessing the social media links of the website is possible by clicking on the social media icons located in the footer of the page.",
+                        "To check out the website's social media links, click on the social media icons positioned in the page's footer."
+                  ],
+                  "extension":  {
+                        "function": "",
+                        "entities": true,
+                        "responses": []
+                  },
+                  "context":  {
+                        "in": "GreetingUserRequest",
+                        "out": "",
+                        "clear": true
+                  },
+                  "entityType": "NA",
+                  "entities": [
+                        
+                  ]
+            },
+            {
+                  "intent": "upload",
+                  "text": [
+                        "how can I upload a project?"
+
+
+                  ],
+                  "responses": [
+                        "There is an 'upload' button on homepage which will redirect you to fill a form and upload that particular project."
+                  ],
+                  "extension":  {
+                        "function": "",
+                        "entities": true,
+                        "responses": []
+                  },
+                  "context":  {
+                        "in": "GreetingUserRequest",
+                        "out": "",
+                        "clear": true
+                  },
+                  "entityType": "NA",
+                  "entities": [
+                        
+                  ]
+            },
+            {
+                  "intent": "Enterprise",
+                  "text": [
+                        "What is an enterprise?",
+                        "What are the different types of enterprises?",
+                        "How do enterprises generate revenue?",
+                        "What are some examples of successful enterprises?",
+                        "What are the key components of a successful enterprise?",
+                        "How can an enterprise maintain its success over time?",
+                        "What are some common challenges faced by enterprises?",
+                        "What is the role of leadership in an enterprise?",
+                        "How can enterprises contribute to society?",
+                        "What are some trends shaping the future of enterprises?"
+
+
+                  ],
+                  "responses": [
+                        "An enterprise is a business or organization established for profit-making purposes.",
+                        "There are various types of enterprises, including sole proprietorship, partnership, corporation, limited liability company (LLC), and non-profit organization.",
+                        "Enterprises generate revenue by selling goods or services to customers, clients, or other businesses.",
+                        "Examples of successful enterprises include Amazon, Apple, Microsoft, Coca-Cola, and Procter & Gamble",
+                        "The key components of a successful enterprise include a strong business plan, a talented and dedicated team, innovative products or services, effective marketing strategies, and efficient operations.",
+                        "An enterprise can maintain its success over time by adapting to changing market conditions, staying up-to-date with technological advancements, consistently improving its products or services, and investing in employee training and development",
+                        "Common challenges faced by enterprises include competition, changing market conditions, regulatory compliance, economic instability, and maintaining a positive public image." ,
+                        "Leadership plays a critical role in an enterprise by setting the direction and vision for the organization, making strategic decisions, motivating and inspiring employees, and ensuring the company operates with integrity and accountability.",
+                        "Enterprises can contribute to society by creating jobs, supporting economic growth, developing innovative products and services, investing in social responsibility initiatives, and promoting environmental sustainability.",
+                        "Some trends shaping the future of enterprises include digital transformation, increasing focus on sustainability and social responsibility, expanding globalization, and the emergence of new technologies such as artificial intelligence and blockchain."
+                  ],
+                  "extension":  {
+                        "function": "",
+                        "entities": true,
+                        "responses": []
+                  },
+                  "context":  {
+                        "in": "GreetingUserRequest",
+                        "out": "",
+                        "clear": true
+                  },
+                  "entityType": "NA",
+                  "entities": [
+                        
+                  ]
+            },
+            {
+                  "intent": "Internet of Things",
+                  "text": [
+                        "what is an IOT and how does it work?",
+                        "What are some examples of IoT devices used in a domain?",
+                        "How can IoT improve energy efficiency in a domain?",
+                        "How does IoT improve safety and security in a domain?",
+                        "What are the benefits of using IoT in a domain?",
+                        "How can IoT be used for predictive maintenance in a domain?",
+                        "What are some challenges of implementing IoT in a domain?",
+                        "How can IoT be used to improve occupant comfort in a domain?",
+                        "How does IoT enable data-driven decision making in a domain?",
+                        "What are some future trends in IoT for domains?"
+
+                  ],
+                  "responses": [
+                        "IoT (Internet of Things) is a technology that enables devices to connect and communicate with each other over the internet. In a domain, IoT can be used to monitor and control various systems such as lighting, HVAC, security, and more, through sensors, actuators, and other IoT devices.",
+                        "Some examples of IoT devices used in a domain include smart thermostats, occupancy sensors, security cameras, smart locks, and automated lighting systems.",
+                        "IoT can improve energy efficiency in a domain by using sensors to detect occupancy levels and adjust lighting and HVAC systems accordingly. It can also help to identify areas of energy waste and optimize energy usage in real-time.",
+                        "IoT can improve safety and security in a domain by providing real-time monitoring of security cameras, door locks, and other systems. It can also alert personnel in case of any abnormal activity, such as a break-in or fire.",
+                        "The benefits of using IoT in a domain include improved energy efficiency, increased safety and security, better asset management, reduced operational costs, and enhanced occupant comfort and productivity.",
+                        "IoT can be used for predictive maintenance in a domain by using sensors to detect and analyze data from various systems, such as HVAC and lighting. This data can be used to predict potential failures and schedule maintenance activities proactively.",
+                        "Some challenges of implementing IoT in a domain include security risks, data privacy concerns, integration issues, and the need for specialized expertise to manage and maintain the IoT infrastructure.",
+                        "IoT can be used to improve occupant comfort in a domain by adjusting lighting, temperature, and other environmental factors based on individual preferences and occupancy levels. It can also provide real-time feedback and insights to occupants to help them optimize their work environment.",
+                        "IoT enables data-driven decision making in a domain by collecting and analyzing real-time data from various systems, such as HVAC and lighting. This data can be used to identify trends, optimize operations, and make informed decisions that improve efficiency, safety, and productivity.",
+                        "Some future trends in IoT for domains include the use of AI and machine learning algorithms to optimize IoT systems, the integration of blockchain technology for enhanced security, and the development of edge computing solutions for faster data processing and response times."
+
+                  ],
+                  "extension":  {
+                        "function": "",
+                        "entities": true,
+                        "responses": []
+                  },
+                  "context":  {
+                        "in": "GreetingUserRequest",
+                        "out": "",
+                        "clear": true
+                  },
+                  "entityType": "NA",
+                  "entities": [
+                        
+                  ]
+            },
+            {
+                  "intent": "Cloud Computing",
+                  "text": [
+                        "What is cloud computing and how does it work?",
+                        "What are the benefits of cloud computing?",
+                        "How does cloud computing differ from traditional computing?",
+                        "What are the different types of cloud computing services?",
+                        "What are some popular cloud computing platforms?",
+                        "What are the security risks associated with cloud computing?",
+                        "How can businesses benefit from cloud computing?",
+                        "What is the future of cloud computing?",
+                        "What are the challenges of migrating to the cloud?",
+                        "How can individuals benefit from cloud computing?"
+
+                  ],
+                  "responses": [
+                        "Cloud computing refers to the delivery of computing resources over the internet, such as servers, storage, applications, and services. Cloud computing allows users to access and use these resources on-demand, without the need for local infrastructure or management.",
+                        "Cloud computing offers several benefits, including cost savings, scalability, flexibility, increased collaboration, improved security, and disaster recovery.",
+                        "Traditional computing requires local infrastructure and management, while cloud computing relies on remote servers and infrastructure managed by third-party providers. Cloud computing allows users to access and use computing resources on-demand, whereas traditional computing requires the purchase and maintenance of hardware and software.",
+                        " Cloud computing services are generally categorized into three types: Software as a Service (SaaS), Platform as a Service (PaaS), and Infrastructure as a Service (IaaS). SaaS provides software applications over the internet, PaaS provides a platform for developing, testing, and deploying applications, and IaaS provides infrastructure resources such as servers, storage, and networking.",
+                        "Some popular cloud computing platforms include Amazon Web Services (AWS), Microsoft Azure, Google Cloud Platform (GCP), and IBM Cloud.",
+                        "Security risks associated with cloud computing include data breaches, unauthorized access, data loss, and lack of control over infrastructure and resources. However, cloud providers offer security measures such as encryption, access control, and monitoring to mitigate these risks.",
+                        " Businesses can benefit from cloud computing by reducing costs, improving collaboration, increasing scalability, and enabling remote work. Cloud computing also allows businesses to access the latest technology and resources without the need for significant upfront investment.",
+                        "The future of cloud computing is expected to include increased adoption of artificial intelligence and machine learning, greater integration with the internet of things (IoT), and the continued expansion of hybrid and multi-cloud environments.",
+                        "Challenges of migrating to the cloud include data migration, application compatibility, integration with existing infrastructure, and potential business disruption. However, careful planning and preparation can help mitigate these challenges.",
+                        "Individuals can benefit from cloud computing by accessing applications and services from any device with an internet connection, backing up and sharing data, and collaborating with others remotely. Cloud computing also allows individuals to access a wide range of resources and services without the need for significant upfront investment."
+                  ],
+                  "extension":  {
+                        "function": "",
+                        "entities": true,
+                        "responses": []
+                  },
+                  "context":  {
+                        "in": "GreetingUserRequest",
+                        "out": "",
+                        "clear": true
+                  },
+                  "entityType": "NA",
+                  "entities": [
+                        
+                  ]
+            },
+            {
+                  "intent": "Android Development",
+                  "text": [
+                        "What is Android Development?",
+                        "What are the benefits of Android Development?",
+                        "What are the different types of Android Development?",
+                        "What programming languages are used for Android Development?",
+                        "What is Android Studio?",
+                        "What are the requirements for Android Development?",
+                        "What is the Android SDK?",
+                        "How do I publish my Android app?",
+                        "What are some common challenges in Android Development?",
+                        "How can I improve my Android Development skills?"
+
+                  ],
+                  "responses": [
+                        "Android Development refers to the process of creating mobile applications that run on the Android operating system. It involves using tools and programming languages such as Java, Kotlin, and Android Studio to develop apps that are optimized for Android devices.",
+                        "Some of the benefits of Android Development include a large and growing user base, easy access to development tools and resources, and the ability to create apps that can run on a variety of Android devices. Additionally, Android offers a flexible platform that allows for the creation of custom user interfaces and features.",
+                        "There are several different types of Android Development, including native app development, cross-platform app development, and game development. Native app development involves using Android-specific programming languages and tools to create apps that are optimized for Android devices. Cross-platform app development involves using frameworks like React Native and Flutter to create apps that can run on both Android and iOS devices. Game development involves creating games that run on Android devices using specialized game development tools and programming languages.",
+                        "The primary programming languages used for Android Development are Java and Kotlin. Java has been the traditional language for Android app development, but Kotlin has gained popularity in recent years due to its modern syntax and enhanced features.",
+                        "Android Studio is an integrated development environment (IDE) for Android app development. It provides developers with tools for designing, building, and testing Android apps. Android Studio includes features such as code editing, debugging, and performance analysis tools.",
+                        "To start developing Android apps, you need a computer running a supported operating system (Windows, macOS, or Linux), Java Development Kit (JDK), and Android Studio. You also need to have a good understanding of programming concepts and experience with Java or Kotlin programming languages.",
+                        "The Android SDK (Software Development Kit) is a collection of tools and libraries used for Android app development. It includes a set of development tools, platform-specific libraries, and emulators that allow developers to create, test, and debug Android apps.",
+                        "To publish your Android app, you need to create a developer account on Google Play Console, which is the official app store for Android devices. After creating an account, you need to upload your app, provide the necessary details, and submit it for review. Once approved, your app will be available for download on the Google Play Store.",
+                        "Some common challenges in Android Development include fragmentation, device compatibility issues, and security concerns. Fragmentation refers to the wide range of devices with varying screen sizes, resolutions, and hardware specifications that developers need to consider when creating apps. Device compatibility issues arise when apps are not optimized for specific devices or versions of Android. Security concerns arise due to the high risk of malware and other security threats on Android devices.",
+                        "To improve your Android Development skills, you can start by learning the basics of programming languages such as Java and Kotlin. You can also take online courses, read books and articles, and participate in developer communities to learn from others. Additionally, you can practice developing your own apps, experiment with new tools and techniques, and seek feedback from others to improve your skills"
+                  ],
+                  "extension":  {
+                        "function": "",
+                        "entities": true,
+                        "responses": []
+                  },
+                  "context":  {
+                        "in": "GreetingUserRequest",
+                        "out": "",
+                        "clear": true
+                  },
+                  "entityType": "NA",
+                  "entities": [
+                        
+                  ]
+            },
+            {
+                  "intent": "Web Development",
+                  "text": [
+                        "What is web development?",
+                        "What are the key skills required for web development?",
+                        "What are the different types of web development?",
+                        "What are the benefits of web development?",
+                        "What are the different stages of web development?",
+                        "What are some popular web development frameworks?",
+                        "How can businesses benefit from web development?",
+                        "What are the latest trends in web development?",
+                        "What is the difference between web development and web design?",
+                        "What are the challenges faced by web developers?"
+
+
+
+                  ],
+                  "responses": [
+                        "Web development is the process of creating websites and web applications using programming languages, frameworks, and technologies.",
+                        "Key skills required for web development include proficiency in programming languages like HTML, CSS, and JavaScript, understanding of web frameworks like React, Angular, and Vue, and knowledge of web development tools and technologies like Git, databases, and server-side programming.",
+                        "There are three different types of web development: front-end development, back-end development, and full-stack development. Front-end development deals with the client-side of a website, back-end development deals with the server-side of a website, and full-stack development involves both front-end and back-end development.",
+                        "Web development offers numerous benefits, including increased visibility, accessibility, and engagement for businesses and organizations. It also enables developers to create unique and dynamic web experiences for users.",
+                        "The different stages of web development include planning, design, development, testing, and deployment. Each stage is crucial to the success of the project and requires careful attention to detail.",
+                        "Some popular web development frameworks include React, Angular, Vue, Django, and Ruby on Rails. These frameworks provide developers with pre-built tools and features to streamline the development process.",
+                        "Businesses can benefit from web development by creating an online presence, increasing their visibility and accessibility, and improving their customer engagement. Websites and web applications can also automate business processes, reducing costs and improving efficiency.",
+                        "Some of the latest trends in web development include the use of artificial intelligence and machine learning, the rise of voice and chat interfaces, the use of progressive web apps, and the adoption of responsive design.",
+                        "Web development involves the creation of the functional aspects of a website or web application, such as coding and programming. Web design, on the other hand, focuses on the aesthetic aspects of a website, such as layout, typography, and color.",
+                        "Web developers face challenges such as keeping up with the latest technologies and trends, dealing with browser compatibility issues, and ensuring the security and scalability of their projects. They also need to ensure that their projects are user-friendly and accessible to all users, including those with disabilitiy."
+                  
+                  ],
+                  "extension":  {
+                        "function": "",
+                        "entities": true,
+                        "responses": []
+                  },
+                  "context":  {
+                        "in": "GreetingUserRequest",
+                        "out": "",
+                        "clear": true
+                  },
+                  "entityType": "NA",
+                  "entities": [
+                        
+                  ]
+            },
+
+
+
+            {
+                  "intent": "CourtesyGreeting",
+                  "text": [
+                        "How are you?",
+                        "Hi how are you?",
+                        "Hello how are you?",
+                        "Hola how are you?",
+                        "How are you doing?",
+                        "Hope you are doing well?",
+                        "Hello hope you are doing well?"
+                  ],
+                  "responses": [
+                        "Hello, I am great, how may I help you?",
+                        "Hello,I am great thanks!, What are your Queries?",
+                        "Hello, I am good thank you,What can I do for You"
+                  ],
+                  "extension":  {
+                        "function": "",
+                        "entities": false,
+                        "responses": []
+                  },
+                  "context":  {
+                        "in": "",
+                        "out": "CourtesyGreetingUserRequest",
+                        "clear": true
+                  },
+                  "entityType": "NA",
+                  "entities": []
+            },
+            {
+                  "intent": "CourtesyGreetingResponse",
+                  "text": [
+                        "Good thanks!",
+                        "Great thanks!"
+                  ],
+                  "responses": [],
+                  "extension":  {
+                        "function": "",
+                        "entities": true,
+                        "responses": [
+                              
+                        ]
+                  },
+                  "context":  {
+                        "in": "GreetingUserRequest",
+                        "out": "",
+                        "clear": true
+                  },
+                  "entityType": "NA",
+                  "entities": [
+                        
+                  ]
+            },
+            
+
+
+
+
+            {
+                  "intent": "NameQuery",
+                  "text": [
+                        "What is your name?",
+                        "What could I call you?",
+                        "What can I call you?",
+                        "What do your friends call you?",
+                        "Who are you?",
+                        "Tell me your name?"
+                  ],
+                  "responses": [
+                        "You can call me HackBot",
+                        "You may call me HackBot",
+                        "Call me HackBot"
+                  ],
+                  "extension":  {
+                        "function": "",
+                        "entities": false,
+                        "responses": []
+                  },
+                  "context":  {
+                        "in": "",
+                        "out": "",
+                        "clear": false
+                  },
+                  "entityType": "NA",
+                  "entities": []
+            },
+            {
+                  "intent": "RealNameQuery", 
+                  "text": [
+                        "What is your real name?",
+                        "What is your real name please?",
+                        "What's your real name?",
+                        "Tell me your real name?",
+                        "Your real name?",
+                        "Your real name please?",
+                        "Your real name please?"
+                  ],
+                  "responses": [
+                        "My name is HackBot",
+                        "HackBot",
+                        "My real name is HackBot" 
+                  ],
+                  "extension":  {
+                        "function": "",
+                        "entities": false,
+                        "responses": []
+                  },
+                  "context":  {
+                        "in": "",
+                        "out": "",
+                        "clear": false
+                  },
+                  "entityType": "NA",
+                  "entities": []
+            },
+            
+            {
+                  "intent": "Thanks",
+                  "text": [
+                        "OK thank you",
+                        "OK thanks",
+                        "OK",
+                        "Thanks",
+                        "Thank you",
+                        "That's helpful"
+                  ],
+                  "responses": [
+                        "No problem!",
+                        "Happy to help!",
+                        "Any time!",
+                        "My pleasure"
+                  ],
+                  "extension":  {
+                        "function": "",
+                        "entities": false,
+                        "responses": []
+                  },
+                  "context":  {
+                        "in": "",
+                        "out": "",
+                        "clear": false
+                  },
+                  "entityType": "NA",
+                  "entities": []
+            },
+            {
+                  "intent": "NotTalking2U",
+                  "text": [
+                        "I am not talking to you",
+                        "I was not talking to you",
+                        "Not talking to you",
+                        "Wasn't for you",
+                        "Wasn't meant for you",
+                        "Wasn't communicating to you",
+                        "Wasn't speaking to you"
+                  ],
+                  "responses": [
+                        "OK",
+                        "No problem",
+                        "Right"
+                  ],
+                  "extension":  {
+                        "function": "",
+                        "entities": false,
+                        "responses": []
+                  },
+                  "context":  {
+                        "in": "",
+                        "out": "",
+                        "clear": false
+                  },
+                  "entityType": "NA",
+                  "entities": []
+            },
+            {
+                  "intent": "UnderstandQuery",
+                  "text": [
+                        "Do you understand what I am saying",
+                        "Do you understand me",
+                        "Do you know what I am saying",
+                        "Do you get me",
+                        "Comprendo",
+                        "Know what I mean"
+                  ],
+                  "responses": [
+                        "I read you loud and clear!",
+                        "I do in deed!"
+                  ],
+                  "extension":  {
+                        "function": "",
+                        "entities": false,
+                        "responses": []
+                  },
+                  "context":  {
+                        "in": "",
+                        "out": "",
+                        "clear": false
+                  },
+                  "entities": []
+            },
+            {
+                  "intent": "Shutup",
+                  "text": [
+                        "Be quiet",
+                        "Shut up",
+                        "Stop talking",
+                        "Enough talking",
+                        "Please be quiet",
+                        "Quiet",
+                        "Shhh"
+                  ],
+                  "responses": [
+                        "I am sorry to disturb you",
+                        "Fine, sorry to disturb you",
+                        "OK, sorry to disturb you"
+                  ],
+                  "extension":  {
+                        "function": "",
+                        "entities": false,
+                        "responses": []
+                  },
+                  "context":  {
+                        "in": "",
+                        "out": "",
+                        "clear": false
+                  },
+                  "entityType": "NA",
+                  "entities": []
+            },
+            {
+                  "intent": "GoodBye",
+                  "text": [
+                        "Bye",
+                        "Adios",
+                        "See you later",
+                        "Goodbye"
+                  ],
+                  "responses": [
+                        "See you later",
+                        "Have a nice day",
+                        "Bye! Come back again soon."
+                  ],
+                  "extension":  {
+                        "function": "",
+                        "entities": false,
+                        "responses": []
+                  },
+                  "context":  {
+                        "in": "",
+                        "out": "",
+                        "clear": false
+                  },
+                  "entityType": "NA",
+                  "entities": []
+            },
+            {
+                  "intent": "CourtesyGoodBye",
+                  "text": [
+                        "Thanks, bye",
+                        "Thanks for the help, goodbye",
+                        "Thank you, bye",
+                        "Thank you, goodbye",
+                        "Thanks goodbye",
+                        "Thanks good bye"
+                  ],
+                  "responses": [
+                        "No problem, goodbye",
+                        "Not a problem! Have a nice day",
+                        "Bye! Come back again soon."
+                  ],
+                  "extension":  {
+                        "function": "",
+                        "entities": false,
+                        "responses": []
+                  },
+                  "context":  {
+                        "in": "",
+                        "out": "",
+                        "clear": false
+                  },
+                  "entityType": "NA",
+                  "entities": []
+            },
+            
+            { 
+                  "intent": "Clever",
+                  "text": [
+                        "You are very clever",
+                        "You are a very clever girl",
+                        "You are very intelligent",
+                        "You are a very intelligent girl",
+                        "You are a genious",
+                        "Clever girl",
+                        "Genious"
+                  ],
+                  "responses": [
+                        "Thank you, I was trained that way",
+                        "I was trained well",
+                        "Thanks, I was trained that way"
+                  ],
+                  "extension":  {
+                        "function": "",
+                        "entities": false,
+                        "responses": []
+                  },
+                  "context":  {
+                        "in": "",
+                        "out": "",
+                        "clear": false
+                  },
+                  "entityType": "NA",
+                  "entities": []
+            }
+            
+      ]
+}
